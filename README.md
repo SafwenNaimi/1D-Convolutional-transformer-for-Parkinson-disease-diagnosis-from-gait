@@ -48,8 +48,11 @@ The algorithm will generate the following output files:
 
 
 To run experiments from our Model A used in the ablation study, the entry point is `W-O_Temporal_Transformer.py` file.
+
 To run experiments from our Model B used in the ablation study, the entry point is `W-O_Spatial_Transformer.py` file.
+
 To run experiments from our Model C used in the ablation study, the entry point is `1D-ConvNet_only.py` file.
+
 To run experiments from our Model D used in the ablation study, the entry point is `Transformers_only.py` file.
 
 
