@@ -27,22 +27,8 @@ Each line in demographics.xls contains 19 columns:
 * Column     19:   Total force under the right foot.
 
 ## Getting Started
-To run experiments from our Two-class ConvNet-Transformer model used for PD detection, the entry point is `Two-Class_model.py` file.
 
-The algorithm will generate the following output files:
-
-
-    ├── output(dir)
-        ├── train_classifier_month_day(dir)   
-            ├── hour_minutes(dir)
-	            ├──  model.json : JSON file of the model.               
-	            ├──  res_pat.csv: results of accuracy, sensitivity and specificity by patients.
-                ├──  res_seg.csv: results of accuracy, sensitivity and specificity by segments.	                
-                ├──  training_i.csv: training/validation loss and accuracy for the i_th folder (i = [1..10]).   
-	            ├──  weights_i.hdf5 : weights of the model for the i_th folder (i = [1..10]).   
-
-
-To run experiments from our Multi-class ConvNet-Transformer model used for Severity prediction, the entry point is `Multi-Class_model.py` file.
+To run experiments from our Hybrid ConvNet-Transformer model used for PD diagnosis, the entry point is `main.py` file.
 
 The algorithm will generate the following output files:
 
