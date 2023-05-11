@@ -1,4 +1,4 @@
-# Parkinson-Disease-Diagnosis-from-using-a-Hybrid-ConvNet-Transformer
+# 1D-Convolutional transformer for Parkinson disease diagnosis from gait
 
 ## Prerequisites
 Python 3.8 or later with all requirements.txt dependencies installed. To install run:
